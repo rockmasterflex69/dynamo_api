@@ -3,7 +3,13 @@ var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var AWS = require('aws-sdk');
-var dynamoDBConfiguration = require('./data.json');
+var dynamoDBConfiguration = 
+{
+	accessKeyId : process.env.accessKeyId,
+	secretAccessKey : process.env.secretAccessKey,
+	region: process.env.region
+	
+};
 var sortJsonArray = require('sort-json-array');
 var tableName = 'user_queue';
 
