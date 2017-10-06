@@ -1,0 +1,22 @@
+{
+	"proposed_time": "2017-10-05T05:10:17",
+	"problem": "phone",
+	"num_lines": 4,
+	"services": ["Wireless Home Phone"],
+	"handled": 0,
+	"phone_number": 18003334444,
+	"checkin_timestamp": "2017-10-05T05:15:17",
+	"account_number": 122955318,
+	"name": "testuser"
+},
+{
+	"proposed_time": "2017-10-05T05:10:17",
+	"problem": "phone",
+	"num_lines": 4,
+	"services": ["Wireless Home Phone"],
+	"handled": 1,
+	"phone_number": 18003334444,
+	"checkin_timestamp": "2017-10-05T05:15:17",
+	"account_number": 122955318,
+	"name": "testuser"
+}
